@@ -28,7 +28,6 @@ body {
 }
 
 .title {
- 
   margin: 0 auto;
   width: 80%;
   height: auto;
@@ -38,7 +37,7 @@ body {
 
 .title p {
   font-size: 20em;
-  line-height:100%;
+  line-height: 100%;
   border-top: 10px solid black;
   border-bottom: 10px solid black;
   margin: 0 auto;
@@ -187,8 +186,8 @@ footer p {
 
 main {
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  color:black;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
   padding: 2% 0%;
 }
 .space {
@@ -213,18 +212,17 @@ form {
   display: inline-flex;
   flex-direction: column;
   width: 100%;
-  height:100%;
+  height: 100%;
   background-color: rgb(118, 130, 153);
   padding: 4%;
   border-radius: 5px;
 }
 .form {
   width: 30%;
-  height:90%;
+  height: 90%;
   position: fixed;
   bottom: 0%;
   right: 5%;
-  
 }
 
 input,
@@ -248,51 +246,49 @@ input[type="submit"] {
   margin-bottom: 0;
 }
 
-
-.flex{
-display:flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content: space-between;
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
-.flex-item{
-    width:30%;
-    display:flex;
-    flex-flow:row nowrap;
-    justify-content: space-between;
+.flex-item {
+  width: 30%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 .flex-item p {
-    width:40%;
-    margin-top:0px;
+  width: 40%;
+  margin-top: 0px;
 }
-.flex-item img{
-    width:200px;
-    
+.flex-item img {
+  width: 200px;
 }
-.members{
-    font-weight: 500;
-    font-size:7vh;
-    text-align:center;
-    margin-top:0px;
-    margin-bottom:4%;
-}
-
-.btn-close{
-    position:absolute;
-    top:2%;
-    right:5%;
+.members {
+  font-weight: 500;
+  font-size: 7vh;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 4%;
 }
 
-.btn{
-    position:fixed;
-    bottom:0%;
-    right:5%;
-    width:10%;
+.btn-close {
+  position: absolute;
+  top: 2%;
+  right: 5%;
 }
 
-.cnct{
-    margin-bottom:2%;
-    font-size:32px;
-    font-weight:600;
+.btn {
+  position: fixed;
+  bottom: 0%;
+  right: 5%;
+  width: 10%;
+}
+
+.cnct {
+  margin-bottom: 2%;
+  font-size: 32px;
+  font-weight: 600;
 }
